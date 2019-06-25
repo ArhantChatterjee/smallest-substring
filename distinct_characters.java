@@ -73,8 +73,7 @@ return lr;
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         System.out.println("enter a String");
         String str = br.readLine(); 
-        System.out.println("Smallest window containing all distinct"
-               + " characters is " + findSubString(str)); 
+        System.out.println("Smallest length all distinct characters is " + findSubString(str)); 
         
     } 
 } 

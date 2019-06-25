@@ -60,7 +60,11 @@ public class distinct_characters {
             } 
         } 
        
-        return str.substring(start_index, start_index+min_len); 
+        String lr= str.substring(start_index, start_index+min_len); 
+        int length= lr.length();
+System.out.println("length:	"+length);
+return lr;
+
     } 
        
    
@@ -71,5 +75,6 @@ public class distinct_characters {
         String str = br.readLine(); 
         System.out.println("Smallest window containing all distinct"
                + " characters is " + findSubString(str)); 
+        
     } 
 } 
